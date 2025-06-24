@@ -30,7 +30,7 @@ CFPORT = int(os.environ.get('CFPORT', '443'))          # 优选ip或优选域名
 NAME = os.environ.get('NAME', 'Streamlit')                   # 节点名称
 CHAT_ID = os.environ.get('CHAT_ID', '5987241018')                # Telegram chat_id,推送节点到tg,两个变量同时填写才会推送
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '6779283566:AAE-fSGDSik8uy8VoACv4_tLJx6D0ApVSRQ')            # Telegram bot_token
-PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3000) # 订阅端口，如无法订阅，请手动修改为分配的端口
+PORT = int(os.environ.get('SERVER_PORT') or os.environ.get('PORT') or 3008) # 订阅端口，如无法订阅，请手动修改为分配的端口
 
 # Create running folder
 def create_directory():
